@@ -30,7 +30,7 @@ public class AuthenController {
         model.addAttribute("registerInfo",registerInfo);
         return "register";
     }
-    
+    //da thay doi
     @RequestMapping("/handle_register")
     public String handleRegister(@ModelAttribute RegisterInfo registerInfo, Model model, HttpServletResponse response) {     
         try {
